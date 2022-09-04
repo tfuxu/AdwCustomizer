@@ -16,8 +16,8 @@
 
 name: Build flatpak nightly
 on:
-  push:
-    branches: [next]
+  schedule:
+    - cron: '0 23 * * *'
 jobs:
   flatpak:
     name: "Flatpak"
