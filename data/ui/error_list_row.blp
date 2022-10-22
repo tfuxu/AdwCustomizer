@@ -1,0 +1,35 @@
+using Gtk 4.0;
+using Adw 1;
+
+template GradienceErrorListRow : ListBoxRow {
+  Box {
+    orientation: vertical;
+    margin-top: 6;
+    margin-bottom: 6;
+    margin-start: 12;
+    margin-end: 12;
+
+    Box {
+      orientation: horizontal;
+      spacing: 6;
+
+      Label error-label {
+        halign: start;
+        justify: left;
+        styles ["heading", "error"]
+      }
+
+      Label element-label {
+        halign: start;
+        justify: left;
+        styles ["dim-label", "error"]
+      }
+    }
+
+    Label line-label {
+      halign: start;
+      wrap: true;
+      justify: left;
+    }
+  }
+}

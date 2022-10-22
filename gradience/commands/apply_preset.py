@@ -1,7 +1,7 @@
 import click
 
-from gradience.modules.preset import Preset
-from gradience.modules.themes import Theme
+from gradience.utils.preset import Preset
+from gradience.utils.themes import Theme
 
 
 @click.command()

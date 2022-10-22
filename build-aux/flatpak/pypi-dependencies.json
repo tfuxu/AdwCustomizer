@@ -100,20 +100,6 @@
             ]
         },
         {
-            "name": "python3-cssutils",
-            "buildsystem": "simple",
-            "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"cssutils\" --no-build-isolation"
-            ],
-            "sources": [
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/28/4e/6c6d07b1ab43f7b8b939406b562c652c651a66699b8a01fc6b774cbf69de/cssutils-2.6.0-py3-none-any.whl",
-                    "sha256": "30c72f3a5c5951a11151640600aae7b3bf10e4c0d5c87f5bc505c2cd4a26e0c2"
-                }
-            ]
-        },
-        {
             "name": "python3-Jinja2",
             "buildsystem": "simple",
             "build-commands": [

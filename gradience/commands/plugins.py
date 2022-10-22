@@ -1,7 +1,7 @@
 import click
 
-from gradience.modules.preset import Preset
-from gradience.modules.plugins.manager import setup_pm
+from gradience.utils.preset import Preset
+from gradience.utils.plugins.manager import setup_pm
 
 
 @click.group()
