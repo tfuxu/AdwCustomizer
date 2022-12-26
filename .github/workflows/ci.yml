@@ -57,7 +57,7 @@ jobs:
         uses: docker/setup-qemu-action@v2
         with:
           platforms: arm64
-      - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v4
+      - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v5
         with:
           bundle: com.github.GradienceTeam.Gradience.Devel.flatpak
           manifest-path: build-aux/flatpak/com.github.GradienceTeam.Gradience.Devel.json
