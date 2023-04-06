@@ -54,5 +54,5 @@ jobs:
           bundle: gradience-devel.flatpak
           manifest-path: build-aux/flatpak/com.github.GradienceTeam.Gradience.Devel.json
           cache-key: flatpak-builder-${{ github.sha }}
-          restore-cache: false
+          verbose: true
           arch: ${{ matrix.arch }}
